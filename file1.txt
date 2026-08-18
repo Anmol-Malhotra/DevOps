@@ -1,3 +1,7 @@
 My first Git Lab
 Learning Git commands
 Learning GitHub in LAB 2
+
+I am Anmol Malhotra
+BTech CSE 2nd Year
+Specialization --> DevOps
