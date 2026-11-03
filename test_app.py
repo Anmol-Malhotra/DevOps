@@ -1,13 +1,13 @@
 import unittest
-from app import hello_world
+from app import hello_dev
 
 
 class TestHelloWorld(unittest.TestCase):
 
     def test_hello_world_message(self):
         self.assertEqual(
-            hello_world(),
-            "Hello, World!"
+            hello_dev(),
+            "Hello, DevOps!"
         )
 
 
