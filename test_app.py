@@ -1,37 +1,37 @@
 import unittest
-from app import hello_world, welcome_message
+from app import hello_dev, welcome_message
 
 
-class TestHelloWorld(unittest.TestCase):
+class TestHelloDev(unittest.TestCase):
 
-    # Test 1: Verify hello_world message
-    def test_hello_world_message(self):
+    # Test 1: Verify hello_dev message
+    def test_hello_dev_message(self):
         self.assertEqual(
-            hello_world(),
+            hello_dev(),
             "Hello, DevOps!"
         )
 
     # Test 2: Verify return type
-    def test_hello_world_type(self):
+    def test_hello_dev_type(self):
         self.assertIsInstance(
-            hello_world(),
+            hello_dev(),
             str
         )
 
-    # Test 3: Test welcome message for Aniket
-    def test_welcome_message_aniket(self):
+    # Test 3: Test welcome message for Anmol
+    def test_welcome_message_anmol(self):
         self.assertEqual(
-            welcome_message("Aniket"),
+            welcome_message("Anmol"),
             "Welcome to DevOps, Anmol!"
         )
 
-    # Test 4: Test welcome message for Rahul
-    def test_welcome_message_rahul(self):
+    # Test 4: Test welcome message for Rohan
+    def test_welcome_message_rohan(self):
         self.assertEqual(
-            welcome_message("Rahul"),
+            welcome_message("Rohan"),
             "Welcome to DevOps, Rohan!"
         )
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()
