@@ -1,7 +1,7 @@
 # Simple DevOps application
 
 def hello_dev():
-    return "Hello, DevOps!"
+    return "Hello, Anmol!"
 
 
 def welcome_message(name):
