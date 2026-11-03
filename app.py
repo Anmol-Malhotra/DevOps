@@ -1,7 +1,7 @@
 # Simple DevOps application
 
 def hello_dev():
-    return "Hello, DevOps!"
+    return "Hello, DevOps! Welcome to CI/CD"
 
 def welcome_message(name):
     return f"Welcome to DevOps, {name}!"
