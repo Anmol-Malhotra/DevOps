@@ -1,11 +1,11 @@
-def hello_world():
-    return "Hello, DevOps!"#Returns Hello DevOps
+# Simple DevOps application
 
+def hello_dev():
+    return "Hello, DevOps!"
 
 def welcome_message(name):
-    return f"Welcome to DevOps, {name}!" #Returns Welcome to DevOps with name
+    return f"Welcome to DevOps, {name}!"
 
-
-if _name_ == "_main_":
-    print(hello_world())
+if __name__ == "__main__":
+    print(hello_dev())
     print(welcome_message("Anmol"))
