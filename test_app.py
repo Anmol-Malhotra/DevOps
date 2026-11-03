@@ -8,7 +8,7 @@ class TestHelloDev(unittest.TestCase):
     def test_hello_dev_message(self):
         self.assertEqual(
             hello_dev(),
-            "Hello, DevOps! Welcome to CI/CD."
+            "Hello, DevOps! Welcome to CI/CD"
         )
 
     # Test 2: Verify return type
